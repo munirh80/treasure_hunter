@@ -32,7 +32,9 @@ defmodule TreasureHunter.MixProject do
       {:postgrex, ">= 0.0.0"},
       {:sage, "~> 0.6"},
       {:ex_machina, "~> 2.7.0", only: [:test]},
-      {:mox, "~> 1.0", only: :test}
+      {:treasure_hunter, "~> 0.1.0"},
+      {:mox, "~> 1.0", only: :test},
+      {:ex_doc, "~> 0.31", only: :dev, runtime: false}
     ]
   end
 
